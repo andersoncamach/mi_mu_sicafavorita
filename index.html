@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎶 Reproductor de Música</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Mis Canciones Favoritas</h1>
+
+    <div class="player-container">
+      <div class="card">
+        <img src="https://i.ibb.co/YFqRCXgg/947-D355-B-E65-B-48-FB-87-D4-13-A660-A22-F57.jpg" alt="947-D355-B-E65-B-48-FB-87-D4-13-A660-A22-F57" border="0">
+        <button data-audio="https://www.dropbox.com/scl/fi/4nnlmuatcoaqthh3h09ge/Mi-Suerte-Morat_Audio-Trimmer.mp3?rlkey=0s9huhz3nx7se9f1ajq00za03&raw=1">
+          <span class="play-icon">▶</span> Mi suerte - Morat
+        </button>
+      </div>
+
+      <div class="card">
+       <img src="https://i.ibb.co/rf3qPLyW/maxresdefault-1.jpg" alt="maxresdefault-1" border="0">
+        <button data-audio="https://www.dropbox.com/scl/fi/tdvzy1ws3syfjfxqd3gwk/Si-La-Ves-Morat-1-_Audio-Trimmer.mp3?rlkey=7vtotthmz2krrk95ws5zgrcyn&raw=1">
+          <span class="play-icon">▶</span> Si la ves - Morat
+        </button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ibb.co/DDPryhd5/maxresdefault.jpg" alt="maxresdefault" border="0">
+       <button data-audio="https://www.dropbox.com/scl/fi/0pfctz3c9zx2siow9o0kj/Aitana-CUANDO-HABLES-CON-L-Video-Oficial-AitanaVEVO_Audio-Trimmer.mp3?rlkey=uko5muquct4fm32lelatdu2oh&st=pa4tv3z7&raw=1">
+          <span class="play-icon">▶</span> Cuando hables con él - Aitana
+        </button>
+      </div>
+    </div>
+
+    <audio id="audioPlayer"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
